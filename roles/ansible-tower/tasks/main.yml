@@ -38,6 +38,6 @@
      src=inventory.j2
      dest=/tmp/{{ archive_contents.files[0] }}inventory   
    
- - name: Execute this now!
+ - name: Execute this now by copy below and pasting it on the shell!
    debug:
      msg: "/tmp/{{ archive_contents.files[0] }}setup.sh"  
